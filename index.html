@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Advanced Website</title>
+  <style>
+    /* CSS styles for the website */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f1f1f1;
+    }
+    
+    header {
+      background-color: #212121;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    
+    nav {
+      background-color: #363636;
+      color: #fff;
+      padding: 10px;
+    }
+    
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+    
+    nav ul li {
+      display: inline;
+      margin-right: 10px;
+    }
+    
+    .content {
+      padding: 20px;
+    }
+    
+    .gradient-button {
+      display: inline-block;
+      padding: 10px 20px;
+      background: linear-gradient(to bottom, #4e54c8, #8f94fb);
+      border-radius: 5px;
+      color: #fff;
+      font-size: 16px;
+      text-decoration: none;
+      transition: all 0.3s ease;
+    }
+    
+    .gradient-button:hover {
+      transform: scale(1.1);
+    }
+    
+    .games {
+      display: flex;
+      justify-content: center;
+    }
+    
+    .games img {
+      max-width: 300px;
+      margin: 10px;
+    }
+    
+    .settings {
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to the Advanced Website</h1>
+  </header>
+  
+  <nav>
+    <ul>
+      <li><a href="#home" class="nav-link">Home</a></li>
+      <li><a href="#games" class="nav-link">Games</a></li>
+      <li><a href="#settings" class="nav-link">Settings</a></li>
+    </ul>
+  </nav>
+  
+  <div id="home" class="content">
+    <h2>Home</h2>
+    <p>Welcome to the home page of the Advanced Website.</p>
+    <a href="#games" class="gradient-button">Explore Games</a>
+    <a href="#settings" class="gradient-button">Go to Settings</a>
+  </div>
+  
+  <div id="games" class="content">
+    <h2>Games</h2>
+    <div class="games">
+      <img src="game1.jpg" alt="Game 1">
+      <img src="game2.jpg" alt="Game 2">
+      <img src="game3.jpg" alt="Game 3">
+    </div>
+    <a href="#home" class="gradient-button">Go Back to Home</a>
+    <a href="#settings" class="gradient-button">Go to Settings</a>
+  </div>
+  
+  <div id="settings" class="content">
+    <h2>Settings</h2>
+    <div class="settings">
+      <!-- Add your settings content here -->
+    </div>
+    <a href="#home" class="gradient-button">Go Back to Home</a>
+    <a href="#games" class="gradient-button
